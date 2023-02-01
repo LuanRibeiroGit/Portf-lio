@@ -1,0 +1,92 @@
+#header-main{
+    background-color: rgb(22, 21, 31);
+    width: 100%;
+    height: 70px;
+    
+    
+    box-shadow: 0px 0px 5px rgb(138, 43, 226);
+    
+    display: flex;
+    justify-content: center;
+
+    position: fixed;
+
+    transition: background-color 1s ease;
+
+    z-index: 1;
+}
+.container-header{
+    width: 90%;
+    height: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box-menu{
+    width: 33%;
+}
+.title-header{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+}
+
+.transform{
+    width: 33%;
+    
+    display: flex;
+    justify-content: flex-end;
+}
+#box-transform{
+    background-color: white;
+    
+    width: 60px;
+    height: 25px;
+    
+    border-radius: 15px;
+    
+    display: flex;
+    align-items: center;
+
+    cursor: pointer;
+}
+#circle{
+    background-color: blueviolet;
+    height: 19px;
+    width: 19px;
+    
+    margin-left: 2px;
+    border-radius: 100%;
+    border: none;
+    
+    cursor: pointer;
+
+    transition: all 1s ease
+}
+
+#button-modal{
+    background-color: transparent;
+    border: none;
+    border-radius: 100%;
+
+    width: 35px;
+    height: 35px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: all 200ms ease;
+
+    cursor: pointer;
+}
+#menu{
+    width: 22px;
+}
+#button-modal:hover{
+    transform: scale(1.10);
+    background-color: rgb(18, 13, 26);
+    box-shadow: 0px 0px 5px black;
+}

@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+.main{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.body-main{
+    width: 100%;
+    height: 570px;
+    
+    display: flex;
+    justify-content: center;
+    
+    border-bottom: 1px solid rgb(55, 55, 55);
+}
+.container-body{
+    width: 70%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.myName{
+    font-size: 45px;
+
+    color: blueviolet;
+}
+
+.download-cv{
+    width: 150px;
+    height: 50px;
+
+    border: none;
+    border-radius: 25px;
+
+    box-shadow: 0px 0px 5px black;
+
+    font-size: 18px;
+
+    cursor: pointer;
+
+    text-align: center;
+    line-height: 50px;
+
+    transition: all 0.5s ease;
+
+    background: linear-gradient(to right, #9926ad,  #ff0080cd);    
+    
+    margin-top: 10px;
+}
+
+.download-cv:hover{
+    transform: scale(1.05);
+    
+}
+
+#my-img{
+    width: 300px;
+
+    border-radius: 100%;
+    border: 2px solid black;
+
+    cursor: pointer;
+    box-shadow: 0px 0px 30px black;
+
+    transition: all 1s ease;
+
+}
+#my-img:hover{
+    transform: scale(1.10);
+}
+
+
+.container-sobre{
+    width: 100%;
+    height: 450px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.top-sobre{
+    margin-top: 22px;
+    margin-bottom: 22px;
+    
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+}
+.contents-sobre{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.sobre-mim{
+    width: 70%;
+    height: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.box-sobre{
+    width: 500px;
+    height: 200px;
+    
+    display: flex;
+    align-items: center;
+    text-align: justify;
+}
+
+.box-title-sobre{
+    width: auto;
+    height: auto;
+    
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    
+    display: flex;
+    flex-direction: column;
+}
+.mim{
+    color: rgb(138, 43, 226);
+}
+
+
+.container-praticando{
+    width: 100%;
+    height: 400px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.top-praticando{
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.praticando{
+    border-top: 1px solid rgb(55, 55, 55);
+    
+    width: 300px;
+    text-align: center;
+}
+.contents-praticando{
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.box-praticando{
+    width: 70%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#cards-pratic{
+    width: 120px;
+    height: 150px;
+    
+    background-color: rgb(36, 28, 36);
+    border-radius: 5px;
+    
+    box-shadow: 0px 0px 10px black;
+    
+    color: white;
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+    transition: all 2000ms ease;
+    opacity: 0.6;
+}
+
+.cards-top{
+    font-size: 9px;
+    
+    width: 90%;
+    height: 30px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: rgb(24, 20, 24);
+    border-radius: 5px;
+    
+    margin-top: 5px;
+}
+
+.cards-container-img{
+    width: 100%;
+    height: 120px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards-img{
+    width: 70px;
+    transition: all 2000ms ease;
+}
+
+#cards-pratic:hover{
+    opacity: 1;
+}
+.cards-img:hover{
+    transform: scale(1.20);
+}
+.react:hover{
+    transform: rotate(360deg);
+}
