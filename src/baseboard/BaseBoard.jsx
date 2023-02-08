@@ -18,7 +18,7 @@ export default (props) =>{
         <div id="baseboard">
             <div className="container-base">
                 <div className="top-baseboard">
-                    <h1>Contatos</h1>
+                    <h1 className="contatos">Contatos</h1>
                 </div>
                 <div className="redes-sociais">
                     <div className="container-redes">

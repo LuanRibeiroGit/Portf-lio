@@ -76,7 +76,6 @@
 }
 .first-title{
     font-size: 40px;
-
 }
 .second-title{
     font-size: 30px;
@@ -112,4 +111,20 @@
 }
 .list-modal:hover{
     color: blueviolet;
+}
+
+@media screen and (max-width: 600px) {
+    .container-modal{
+        width: 350px;
+        height: 600px;
+    }
+    .top-modal{
+        width: 100%;
+    }
+    .first-title{
+        text-align: center;
+    }
+    .second-title{
+        text-align: center;
+    }
 }

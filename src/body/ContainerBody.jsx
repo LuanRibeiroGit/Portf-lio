@@ -36,7 +36,7 @@ export default (props) =>{
             </div>
             <div className="container-sobre">
                 <div className="top-sobre">
-                    <h1>Sobre mim</h1>
+                    <h1 className="title-sobre-mim">Sobre mim</h1>
                 </div>
                 <div className="contents-sobre">
                     <div className="sobre-mim">
@@ -44,7 +44,7 @@ export default (props) =>{
                             <h2>Olá meu nome é Luan Ribeiro curso análise e desenvolvimento de sistemas, busco uma chance no mercado de trabalho para mostrar o que eu sei.</h2>
                         </div>
                         <div className="box-title-sobre">
-                            <h1>SOBRE</h1>
+                            <h1 className="">SOBRE</h1>
                             <h1 className="mim">-Mim&</h1>
                         </div>
                     </div>
